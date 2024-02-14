@@ -1,0 +1,8 @@
+typedef enum
+{
+    SIDE = 0b00000100,
+    DIP = 0b00000001,
+    MAIN = 0b00000010,
+    FRONT_FOG = 0b00100000,
+    REAR_FOG = 0b01000000,
+} LIGHTS;
