@@ -1,16 +1,17 @@
 #include <Arduino.h>
 
+#include <configuration.h>
 #include <globals.h>
 #include <canbus.h>
 #include <serial.h>
 
-MCP_CAN CAN(10);
+MCP_CAN CAN(SPI_CS_PIN);
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(SERIAL_BAUD_RATE);
 
-    if (CAN.begin(MCP_ANY, CAN_100KBPS, MCP_8MHZ) == CAN_OK)
+    if (CAN.begin(MCP_ANY, CAN_100KBPS, CAN_CLOCK) == CAN_OK)
     {
         Serial.println("MCP2515 Initialized successfully");
     }
