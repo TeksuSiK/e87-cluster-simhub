@@ -13,7 +13,6 @@ void sendCanBus()
 
         if (counter % 7 == 0)
         {
-            
             sendSpeed();
         }
         
@@ -26,10 +25,6 @@ void sendCanBus()
             sendFuel();
             sendHandbrake();
             sendSeatbelt();
-        }
-
-        if (counter % 60 == 0)
-        {
             sendIndicators();
         }
 
