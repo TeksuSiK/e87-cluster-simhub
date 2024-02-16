@@ -27,7 +27,7 @@ var maxFuel = $prop('MaxFuel');
 function calculate(current, max) {
     return (current / max) * 100;
 }
-var fuel = calculate(maxFuel, currentFuel);
+var fuel = calculate(currentFuel, maxFuel);
 if (isNaN(fuel)) {
     fuel = 0;
 }
