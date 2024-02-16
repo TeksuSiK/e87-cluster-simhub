@@ -2,6 +2,7 @@
 
 ## Supported games
 - Euro Truck Simulator 2
+- Assetto Corsa
 
 ## Supported feautres
 - ABS
