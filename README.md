@@ -30,6 +30,7 @@
 ## Credits
 - [e90-dashboard-ets2](https://github.com/Marcin648/e90-dashboard-ets2) for speed and indicators implementation
 - [loopybunny.co.uk](https://www.loopybunny.co.uk/CarPC/k_can.html) for CAN messages
-- 
+
 ## Check out my other projects
 - [BMW E46 Cluster](https://github.com/TeksuSiK/e46-cluster-simhub)
+- [BMW F-Series Gear Lever](https://github.com/TeksuSiK/bmw-gws-simhub)
